@@ -1,0 +1,16 @@
+.jstb_gdriveembed {
+  background-image: url(../images/icon.png);
+}
+
+.gDriveEmbed-text {
+  width: 100%;
+}
+
+.gDriveEmbed-button {
+  float: right;
+  margin-top: 5px;
+}
+
+#gDriveEmbedDialog {
+  min-height: 0 !important;
+}
