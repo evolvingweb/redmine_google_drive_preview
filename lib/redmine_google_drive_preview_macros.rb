@@ -9,7 +9,7 @@ module GoogleDrivePreviewMacros
       return "Wrong document URL" unless match
       id = match[:id]
       type = match[:type]
-      "<iframe src='https://docs.google.com/#{type}/d/#{id}/preview' allowfullscreen='true' mozallowfullscreen='true' webkitallowfullscreen='true' width='800' height='400'></iframe><br/><a href='#{url}'>View in Google Drive</a>"
+      "<iframe src='https://docs.google.com/#{type}/d/#{id}/preview' allowfullscreen='true' mozallowfullscreen='true' webkitallowfullscreen='true' width='800' height='400'></iframe><br/><a class='preview-view-link' href='#{url}'>View in Google Drive</a>"
     end
   end
 
