@@ -1,7 +1,7 @@
 require 'redmine'
 
-require_dependency "redmine_google_drive_preview_patch"
-require_dependency "redmine_google_drive_preview_macros"
+require_dependency File.expand_path('lib/redmine_google_drive_preview_patch', __dir__)
+require_dependency File.expand_path('lib/redmine_google_drive_preview_macros', __dir__)
 
 Redmine::Plugin.register :redmine_google_drive_preview do
   name 'Redmine Google Drive Preview'
